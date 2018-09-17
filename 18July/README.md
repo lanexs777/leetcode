@@ -1,2 +1,3 @@
 # leetcode
-Sum up all the leetcode secssion.
+
+leetcdoe pratice of July
