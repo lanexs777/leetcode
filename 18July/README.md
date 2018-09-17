@@ -1,1 +1,2 @@
-the leetcode pratice of july
+# leetcode
+Sum up all the leetcode secssion.
