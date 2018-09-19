@@ -25,3 +25,29 @@ public:
         traverse(root->right, k);
     }
 };
+
+# using iterative way
+# stack
+class Solution {
+public:
+    
+    int kthSmallest(TreeNode* root, int k) {
+        int count=0;
+        TreeNode* p=root;
+        stack<TreeNode*> ST;
+        
+        while(!ST.empty() || p!=NULL) {
+            if(p!=NULL) {                
+                ST.push(p);
+                p=p->left;
+            }
+            else{
+                TreeNode* Node=ST.top();
+                ST.pop();
+                if(++count==k) return Node->val;
+                p=Node->right;
+            }
+        }
+    }
+    
+};
