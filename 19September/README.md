@@ -7,3 +7,7 @@ pratice for Septmeber:
 ### LS : LinkedList
 
 ### MUL : Multiple-Solutions
+
+### GR : Greedy
+
+### AR : Array
