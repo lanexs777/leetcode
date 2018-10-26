@@ -11,3 +11,5 @@ IP - in place
 ST - stack
 
 DS - design
+
+HS - hashtable
