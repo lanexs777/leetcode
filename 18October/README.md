@@ -12,4 +12,4 @@ ST - stack
 
 DS - design
 
-HS - hashtable
+HT - hashtable
